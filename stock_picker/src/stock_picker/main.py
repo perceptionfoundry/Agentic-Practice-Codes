@@ -18,7 +18,7 @@ def run():
         print("Warning: SERPER_API_KEY environment variable not set")
     
     inputs = {
-        'sector': 'Technology',
+        'sector': 'Energy',
         "current_date": str(datetime.now())
     }
 

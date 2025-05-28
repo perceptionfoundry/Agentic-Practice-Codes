@@ -84,7 +84,7 @@ class StockPredictor():
         )
         return Crew(
             agents=self.agents,
-            tasks=self.tasks,  # Fixed: was 'task' instead of 'tasks'
+            tasks=self.tasks,
             process=Process.hierarchical,
             verbose=True,
             manager_agent=manager
