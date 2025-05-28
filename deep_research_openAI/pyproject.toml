@@ -1,0 +1,14 @@
+[project]
+name = "deep-research-openai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "gradio>=5.31.0",
+    "openai>=1.82.0",
+    "openai-agents>=0.0.16",
+    "python-dotenv>=1.1.0",
+    "sendgrid>=6.12.2",
+]
